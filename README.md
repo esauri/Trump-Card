@@ -6,4 +6,5 @@ Trump Card is an iOS game which you can play as Donald Trump. In the game the pl
 
 The goal of the game is to end the press conference with enough favorability with voters to gain their vote on election day. Voters are divided into five blocs: African-Americans, Asian-Americans, Latinos, White college educated, and White non-college educated voters. Each response by Trump has an individual effect on these voting groups and this affects the players favorability. The players favorability is measured by voting groups based on their makeup of the electorate. If by the end of the press conference there favorability is above 50% then the player wins otherwise they lose.
 
+![Trump Card Main Screen](http://www.ericksauri.com/img/trumpcard/public/large/gameView.png "Trump Card Screenshot")
 
