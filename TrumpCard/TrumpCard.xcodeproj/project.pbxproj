@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		332049251DCD179F001C9DC1 /* DJT-NobodyRespectsWomenMoreThanIDo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 332049241DCD179F001C9DC1 /* DJT-NobodyRespectsWomenMoreThanIDo.mp3 */; };
+		33233CA81DFE6A7A00E9F445 /* Card Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 33233CA71DFE6A7A00E9F445 /* Card Background.png */; };
+		33233CAA1DFE71D500E9F445 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33233CA91DFE71D500E9F445 /* AboutViewController.swift */; };
+		332900321DC977E90046559A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332900311DC977E90046559A /* AppDelegate.swift */; };
+		332900391DC977E90046559A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 332900381DC977E90046559A /* Assets.xcassets */; };
+		3329003C1DC977E90046559A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3329003A1DC977E90046559A /* LaunchScreen.storyboard */; };
+		3329004D1DC97A930046559A /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3329004C1DC97A930046559A /* Question.swift */; };
+		3329004F1DC97EA50046559A /* Choice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3329004E1DC97EA50046559A /* Choice.swift */; };
+		332900511DC987910046559A /* DraggableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332900501DC987910046559A /* DraggableView.swift */; };
+		332A0EC71DCC39CB0037C25F /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 332A0EC61DCC39CB0037C25F /* data.plist */; };
+		3347D7FA1DFF7F3100275BA4 /* cardSwipe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3347D7F91DFF7F3100275BA4 /* cardSwipe.mp3 */; };
+		3347D7FC1DFF821400275BA4 /* DJT-Loser.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3347D7FB1DFF821400275BA4 /* DJT-Loser.mp3 */; };
+		3347D7FE1DFF827F00275BA4 /* DJT-MAGA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3347D7FD1DFF827F00275BA4 /* DJT-MAGA.mp3 */; };
+		337F913C1DFE77DB0086F26C /* pauseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 337F913B1DFE77DB0086F26C /* pauseButton.png */; };
+		338069D01DCD3A73003A8825 /* DJT-GrabThemByThePussy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 338069CF1DCD3A73003A8825 /* DJT-GrabThemByThePussy.mp3 */; };
+		33865F981DFE540E00F6F8B8 /* trumpSerious.png in Resources */ = {isa = PBXBuildFile; fileRef = 33865F971DFE540E00F6F8B8 /* trumpSerious.png */; };
+		33A8B0F21DFCFB3B005C8D51 /* xButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A8B0F01DFCFB3B005C8D51 /* xButton.png */; };
+		33A8B0F31DFCFB3B005C8D51 /* checkButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 33A8B0F11DFCFB3B005C8D51 /* checkButton.png */; };
+		33AA652A1DCBF973000DA08A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33AA65291DCBF973000DA08A /* Main.storyboard */; };
+		33AA652C1DCBF98C000DA08A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AA652B1DCBF98C000DA08A /* GameViewController.swift */; };
+		33B3D7E71DCD3B710059E2B1 /* Trump.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B3D7E61DCD3B710059E2B1 /* Trump.swift */; };
+		33B3D7FC1DCD96D50059E2B1 /* africanAmericanHappy.png in Resources */ = {isa = PBXBuildFile; fileRef = 33B3D7E91DCD96D50059E2B1 /* africanAmericanHappy.png */; };
+		33B3D7FD1DCD96D50059E2B1 /* africanAmericanMad.png in Resources */ = {isa = PBXBuildFile; fileRef = 33B3D7EA1DCD96D50059E2B1 /* africanAmericanMad.png */; };
+		33B3D7FE1DCD96D50059E2B1 /* africanAmericanNeutral.png in Resources */ = {isa = PBXBuildFile; fileRef = 33B3D7EB1DCD96D50059E2B1 /* africanAmericanNeutral.png */; };
+		33B3D7FF1DCD96D50059E2B1 /* asianAmericanHappy.png in Resources */ = {isa = PBXBuildFile; fileRef = 33B3D7EC1DCD96D50059E2B1 /* asianAmericanHappy.png */; };
+		33B3D8001DCD96D50059E2B1 /* asianAmericanMad.png in Resources */ = {isa = PBXBuildFile; fileRef = 33B3D7ED1DCD96D50059E2B1 /* asianAmericanMad.png */; };
+		33B3D8011DCD96D50059E2B1 /* asianAmericanNeutral.png in Resources */ = {isa = PBXBuildFile; fileRef = 33B3D7EE1DCD96D50059E2B1 /* asianAmericanNeutral.png */; };
+		33B3D8021DCD96D50059E2B1 /* Faces.png in Resources */ = {isa = PBXBuildFile; fileRef = 33B3D7EF1DCD96D50059E2B1 /* Faces.png */; };
+		33B3D8031DCD96D50059E2B1 /* latinoAmericanHappy.png in Resources */ = {isa = PBXBuildFile; fileRef = 33B3D7F01DCD96D50059E2B1 /* latinoAmericanHappy.png */; };
+		33B3D8041DCD96D50059E2B1 /* latinoAmericanMad.png in Resources */ = {isa = PBXBuildFile; fileRef = 33B3D7F11DCD96D50059E2B1 /* latinoAmericanMad.png */; };
+		33B3D8051DCD96D50059E2B1 /* latinoAmericanNeutral.png in Resources */ = {isa = PBXBuildFile; fileRef = 33B3D7F21DCD96D50059E2B1 /* latinoAmericanNeutral.png */; };
+		33B3D8091DCD96D50059E2B1 /* whiteCollegeEducatedHappy.png in Resources */ = {isa = PBXBuildFile; fileRef = 33B3D7F61DCD96D50059E2B1 /* whiteCollegeEducatedHappy.png */; };
+		33B3D80A1DCD96D50059E2B1 /* whiteCollegeEducatedMad.png in Resources */ = {isa = PBXBuildFile; fileRef = 33B3D7F71DCD96D50059E2B1 /* whiteCollegeEducatedMad.png */; };
+		33B3D80B1DCD96D50059E2B1 /* whiteCollegeEducatedNeutral.png in Resources */ = {isa = PBXBuildFile; fileRef = 33B3D7F81DCD96D50059E2B1 /* whiteCollegeEducatedNeutral.png */; };
+		33B3D80C1DCD96D50059E2B1 /* whiteNonCollegeEducatedHappy.png in Resources */ = {isa = PBXBuildFile; fileRef = 33B3D7F91DCD96D50059E2B1 /* whiteNonCollegeEducatedHappy.png */; };
+		33B3D80D1DCD96D50059E2B1 /* whiteNonCollegeEducatedMad.png in Resources */ = {isa = PBXBuildFile; fileRef = 33B3D7FA1DCD96D50059E2B1 /* whiteNonCollegeEducatedMad.png */; };
+		33B3D80E1DCD96D50059E2B1 /* whiteNonCollegeEducatedNeutral.png in Resources */ = {isa = PBXBuildFile; fileRef = 33B3D7FB1DCD96D50059E2B1 /* whiteNonCollegeEducatedNeutral.png */; };
+		33CBE3F61DD14E6D009F2732 /* trumpHappy.png in Resources */ = {isa = PBXBuildFile; fileRef = 33CBE3F31DD14E6D009F2732 /* trumpHappy.png */; };
+		33CBE3F71DD14E6D009F2732 /* trumpMad.png in Resources */ = {isa = PBXBuildFile; fileRef = 33CBE3F41DD14E6D009F2732 /* trumpMad.png */; };
+		33CBE3F81DD14E6D009F2732 /* trumpNeutral.png in Resources */ = {isa = PBXBuildFile; fileRef = 33CBE3F51DD14E6D009F2732 /* trumpNeutral.png */; };
+		33CBE3FC1DD14EAC009F2732 /* whiteCollegeEducatedWomanHappy.png in Resources */ = {isa = PBXBuildFile; fileRef = 33CBE3F91DD14EAC009F2732 /* whiteCollegeEducatedWomanHappy.png */; };
+		33CBE3FD1DD14EAC009F2732 /* whiteCollegeEducatedWomanMad.png in Resources */ = {isa = PBXBuildFile; fileRef = 33CBE3FA1DD14EAC009F2732 /* whiteCollegeEducatedWomanMad.png */; };
+		33CBE3FE1DD14EAC009F2732 /* whiteCollegeEducatedWomanNeutral.png in Resources */ = {isa = PBXBuildFile; fileRef = 33CBE3FB1DD14EAC009F2732 /* whiteCollegeEducatedWomanNeutral.png */; };
+		33D02EDD1DCBC71500BEB367 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D02EDC1DCBC71500BEB367 /* OverlayView.swift */; };
+		33D02EDF1DCBD52700BEB367 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D02EDE1DCBD52700BEB367 /* GameController.swift */; };
+		33D02EFD1DCBE82A00BEB367 /* DJT-DidTryAndFuckHer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33D02EF31DCBE82A00BEB367 /* DJT-DidTryAndFuckHer.mp3 */; };
+		33D02EFE1DCBE82A00BEB367 /* Donald Trump - -Grab Her By The Pussy-.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33D02EF41DCBE82A00BEB367 /* Donald Trump - -Grab Her By The Pussy-.mp3 */; };
+		33F2DD551DFC893E008FC49D /* PressConference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F2DD541DFC893E008FC49D /* PressConference.swift */; };
+		33F2DD571DFC9379008FC49D /* DraggableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F2DD561DFC9379008FC49D /* DraggableViewDelegate.swift */; };
+		33F4F5C91DCBF1E000BF1204 /* trumpPissed.png in Resources */ = {isa = PBXBuildFile; fileRef = 33F4F5C61DCBF1E000BF1204 /* trumpPissed.png */; };
+		33F4F5CA1DCBF1E000BF1204 /* trumpSmiling.png in Resources */ = {isa = PBXBuildFile; fileRef = 33F4F5C71DCBF1E000BF1204 /* trumpSmiling.png */; };
+		33F8EB671DF3AC8C00A11660 /* launchscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 33F8EB661DF3AC8C00A11660 /* launchscreen.png */; };
+		33F8EB691DF3ADC700A11660 /* DJT-GrabEmByThePussy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 33F8EB681DF3ADC700A11660 /* DJT-GrabEmByThePussy.mp3 */; };
+		33FA04231DFCC490006CE104 /* TrumpCardBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 33FA04221DFCC490006CE104 /* TrumpCardBackground.png */; };
+		33FA04251DFCCE0C006CE104 /* TrumpQuotesTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FA04241DFCCE0C006CE104 /* TrumpQuotesTableVC.swift */; };
+		33FA04271DFCDDCA006CE104 /* QuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FA04261DFCDDCA006CE104 /* QuoteViewController.swift */; };
+		33FA04291DFCE4B9006CE104 /* AudioProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FA04281DFCE4B9006CE104 /* AudioProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		332049241DCD179F001C9DC1 /* DJT-NobodyRespectsWomenMoreThanIDo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "DJT-NobodyRespectsWomenMoreThanIDo.mp3"; sourceTree = "<group>"; };
+		33233CA71DFE6A7A00E9F445 /* Card Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Card Background.png"; sourceTree = "<group>"; };
+		33233CA91DFE71D500E9F445 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		3329002E1DC977E90046559A /* TrumpCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrumpCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		332900311DC977E90046559A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		332900381DC977E90046559A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3329003B1DC977E90046559A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3329003D1DC977E90046559A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3329004C1DC97A930046559A /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		3329004E1DC97EA50046559A /* Choice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Choice.swift; sourceTree = "<group>"; };
+		332900501DC987910046559A /* DraggableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableView.swift; sourceTree = "<group>"; };
+		332A0EC61DCC39CB0037C25F /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		3347D7F91DFF7F3100275BA4 /* cardSwipe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cardSwipe.mp3; sourceTree = "<group>"; };
+		3347D7FB1DFF821400275BA4 /* DJT-Loser.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "DJT-Loser.mp3"; sourceTree = "<group>"; };
+		3347D7FD1DFF827F00275BA4 /* DJT-MAGA.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "DJT-MAGA.mp3"; sourceTree = "<group>"; };
+		337F913B1DFE77DB0086F26C /* pauseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseButton.png; sourceTree = "<group>"; };
+		338069CF1DCD3A73003A8825 /* DJT-GrabThemByThePussy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "DJT-GrabThemByThePussy.mp3"; sourceTree = "<group>"; };
+		33865F971DFE540E00F6F8B8 /* trumpSerious.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trumpSerious.png; sourceTree = "<group>"; };
+		33A8B0F01DFCFB3B005C8D51 /* xButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = xButton.png; path = ../xButton.png; sourceTree = "<group>"; };
+		33A8B0F11DFCFB3B005C8D51 /* checkButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = checkButton.png; path = ../checkButton.png; sourceTree = "<group>"; };
+		33AA65291DCBF973000DA08A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		33AA652B1DCBF98C000DA08A /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		33B3D7E61DCD3B710059E2B1 /* Trump.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trump.swift; sourceTree = "<group>"; };
+		33B3D7E91DCD96D50059E2B1 /* africanAmericanHappy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = africanAmericanHappy.png; sourceTree = "<group>"; };
+		33B3D7EA1DCD96D50059E2B1 /* africanAmericanMad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = africanAmericanMad.png; sourceTree = "<group>"; };
+		33B3D7EB1DCD96D50059E2B1 /* africanAmericanNeutral.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = africanAmericanNeutral.png; sourceTree = "<group>"; };
+		33B3D7EC1DCD96D50059E2B1 /* asianAmericanHappy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asianAmericanHappy.png; sourceTree = "<group>"; };
+		33B3D7ED1DCD96D50059E2B1 /* asianAmericanMad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asianAmericanMad.png; sourceTree = "<group>"; };
+		33B3D7EE1DCD96D50059E2B1 /* asianAmericanNeutral.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asianAmericanNeutral.png; sourceTree = "<group>"; };
+		33B3D7EF1DCD96D50059E2B1 /* Faces.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Faces.png; sourceTree = "<group>"; };
+		33B3D7F01DCD96D50059E2B1 /* latinoAmericanHappy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = latinoAmericanHappy.png; sourceTree = "<group>"; };
+		33B3D7F11DCD96D50059E2B1 /* latinoAmericanMad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = latinoAmericanMad.png; sourceTree = "<group>"; };
+		33B3D7F21DCD96D50059E2B1 /* latinoAmericanNeutral.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = latinoAmericanNeutral.png; sourceTree = "<group>"; };
+		33B3D7F61DCD96D50059E2B1 /* whiteCollegeEducatedHappy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteCollegeEducatedHappy.png; sourceTree = "<group>"; };
+		33B3D7F71DCD96D50059E2B1 /* whiteCollegeEducatedMad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteCollegeEducatedMad.png; sourceTree = "<group>"; };
+		33B3D7F81DCD96D50059E2B1 /* whiteCollegeEducatedNeutral.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteCollegeEducatedNeutral.png; sourceTree = "<group>"; };
+		33B3D7F91DCD96D50059E2B1 /* whiteNonCollegeEducatedHappy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteNonCollegeEducatedHappy.png; sourceTree = "<group>"; };
+		33B3D7FA1DCD96D50059E2B1 /* whiteNonCollegeEducatedMad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteNonCollegeEducatedMad.png; sourceTree = "<group>"; };
+		33B3D7FB1DCD96D50059E2B1 /* whiteNonCollegeEducatedNeutral.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteNonCollegeEducatedNeutral.png; sourceTree = "<group>"; };
+		33CBE3F31DD14E6D009F2732 /* trumpHappy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trumpHappy.png; sourceTree = "<group>"; };
+		33CBE3F41DD14E6D009F2732 /* trumpMad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trumpMad.png; sourceTree = "<group>"; };
+		33CBE3F51DD14E6D009F2732 /* trumpNeutral.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trumpNeutral.png; sourceTree = "<group>"; };
+		33CBE3F91DD14EAC009F2732 /* whiteCollegeEducatedWomanHappy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteCollegeEducatedWomanHappy.png; sourceTree = "<group>"; };
+		33CBE3FA1DD14EAC009F2732 /* whiteCollegeEducatedWomanMad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteCollegeEducatedWomanMad.png; sourceTree = "<group>"; };
+		33CBE3FB1DD14EAC009F2732 /* whiteCollegeEducatedWomanNeutral.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteCollegeEducatedWomanNeutral.png; sourceTree = "<group>"; };
+		33D02EDC1DCBC71500BEB367 /* OverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		33D02EDE1DCBD52700BEB367 /* GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		33D02EF31DCBE82A00BEB367 /* DJT-DidTryAndFuckHer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "DJT-DidTryAndFuckHer.mp3"; sourceTree = "<group>"; };
+		33D02EF41DCBE82A00BEB367 /* Donald Trump - -Grab Her By The Pussy-.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Donald Trump - -Grab Her By The Pussy-.mp3"; sourceTree = "<group>"; };
+		33F2DD541DFC893E008FC49D /* PressConference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PressConference.swift; sourceTree = "<group>"; };
+		33F2DD561DFC9379008FC49D /* DraggableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableViewDelegate.swift; sourceTree = "<group>"; };
+		33F4F5C61DCBF1E000BF1204 /* trumpPissed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trumpPissed.png; sourceTree = "<group>"; };
+		33F4F5C71DCBF1E000BF1204 /* trumpSmiling.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trumpSmiling.png; sourceTree = "<group>"; };
+		33F8EB661DF3AC8C00A11660 /* launchscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchscreen.png; sourceTree = "<group>"; };
+		33F8EB681DF3ADC700A11660 /* DJT-GrabEmByThePussy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "DJT-GrabEmByThePussy.mp3"; sourceTree = "<group>"; };
+		33FA04221DFCC490006CE104 /* TrumpCardBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrumpCardBackground.png; sourceTree = "<group>"; };
+		33FA04241DFCCE0C006CE104 /* TrumpQuotesTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrumpQuotesTableVC.swift; sourceTree = "<group>"; };
+		33FA04261DFCDDCA006CE104 /* QuoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteViewController.swift; sourceTree = "<group>"; };
+		33FA04281DFCE4B9006CE104 /* AudioProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioProtocol.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3329002B1DC977E90046559A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		332900251DC977E90046559A = {
+			isa = PBXGroup;
+			children = (
+				332900301DC977E90046559A /* TrumpCard */,
+				3329002F1DC977E90046559A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3329002F1DC977E90046559A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3329002E1DC977E90046559A /* TrumpCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		332900301DC977E90046559A /* TrumpCard */ = {
+			isa = PBXGroup;
+			children = (
+				33D02EF11DCBE82A00BEB367 /* Media */,
+				332900491DC979530046559A /* Storyboards */,
+				332900451DC978C70046559A /* Data */,
+				33F2DD581DFC93F0008FC49D /* Delegates */,
+				332900431DC978A80046559A /* Models */,
+				33F2DD591DFC984C008FC49D /* Views */,
+				332900441DC978B70046559A /* ViewControllers */,
+				332900311DC977E90046559A /* AppDelegate.swift */,
+				332900381DC977E90046559A /* Assets.xcassets */,
+				3329003D1DC977E90046559A /* Info.plist */,
+			);
+			path = TrumpCard;
+			sourceTree = "<group>";
+		};
+		332900431DC978A80046559A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3329004C1DC97A930046559A /* Question.swift */,
+				3329004E1DC97EA50046559A /* Choice.swift */,
+				33B3D7E61DCD3B710059E2B1 /* Trump.swift */,
+				33F2DD541DFC893E008FC49D /* PressConference.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		332900441DC978B70046559A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				33AA652B1DCBF98C000DA08A /* GameViewController.swift */,
+				33FA04241DFCCE0C006CE104 /* TrumpQuotesTableVC.swift */,
+				33FA04261DFCDDCA006CE104 /* QuoteViewController.swift */,
+				33233CA91DFE71D500E9F445 /* AboutViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		332900451DC978C70046559A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				332A0EC61DCC39CB0037C25F /* data.plist */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		332900491DC979530046559A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				33AA65291DCBF973000DA08A /* Main.storyboard */,
+				3329003A1DC977E90046559A /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		33865F961DFE53F400F6F8B8 /* Trump Faces */ = {
+			isa = PBXGroup;
+			children = (
+				33F4F5C61DCBF1E000BF1204 /* trumpPissed.png */,
+				33865F971DFE540E00F6F8B8 /* trumpSerious.png */,
+				33F4F5C71DCBF1E000BF1204 /* trumpSmiling.png */,
+			);
+			name = "Trump Faces";
+			sourceTree = "<group>";
+		};
+		33865F991DFE544300F6F8B8 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				337F913B1DFE77DB0086F26C /* pauseButton.png */,
+				33A8B0F01DFCFB3B005C8D51 /* xButton.png */,
+				33A8B0F11DFCFB3B005C8D51 /* checkButton.png */,
+			);
+			name = Buttons;
+			path = Sprites;
+			sourceTree = "<group>";
+		};
+		33865F9A1DFE545E00F6F8B8 /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				33233CA71DFE6A7A00E9F445 /* Card Background.png */,
+				33F8EB661DF3AC8C00A11660 /* launchscreen.png */,
+				33FA04221DFCC490006CE104 /* TrumpCardBackground.png */,
+			);
+			name = Backgrounds;
+			sourceTree = "<group>";
+		};
+		33B3D7E81DCD96D50059E2B1 /* Sprites */ = {
+			isa = PBXGroup;
+			children = (
+				33B3D7E91DCD96D50059E2B1 /* africanAmericanHappy.png */,
+				33B3D7EA1DCD96D50059E2B1 /* africanAmericanMad.png */,
+				33B3D7EB1DCD96D50059E2B1 /* africanAmericanNeutral.png */,
+				33B3D7EC1DCD96D50059E2B1 /* asianAmericanHappy.png */,
+				33B3D7ED1DCD96D50059E2B1 /* asianAmericanMad.png */,
+				33CBE3F91DD14EAC009F2732 /* whiteCollegeEducatedWomanHappy.png */,
+				33CBE3FA1DD14EAC009F2732 /* whiteCollegeEducatedWomanMad.png */,
+				33CBE3FB1DD14EAC009F2732 /* whiteCollegeEducatedWomanNeutral.png */,
+				33CBE3F31DD14E6D009F2732 /* trumpHappy.png */,
+				33CBE3F41DD14E6D009F2732 /* trumpMad.png */,
+				33CBE3F51DD14E6D009F2732 /* trumpNeutral.png */,
+				33B3D7EE1DCD96D50059E2B1 /* asianAmericanNeutral.png */,
+				33B3D7EF1DCD96D50059E2B1 /* Faces.png */,
+				33B3D7F01DCD96D50059E2B1 /* latinoAmericanHappy.png */,
+				33B3D7F11DCD96D50059E2B1 /* latinoAmericanMad.png */,
+				33B3D7F21DCD96D50059E2B1 /* latinoAmericanNeutral.png */,
+				33B3D7F61DCD96D50059E2B1 /* whiteCollegeEducatedHappy.png */,
+				33B3D7F71DCD96D50059E2B1 /* whiteCollegeEducatedMad.png */,
+				33B3D7F81DCD96D50059E2B1 /* whiteCollegeEducatedNeutral.png */,
+				33B3D7F91DCD96D50059E2B1 /* whiteNonCollegeEducatedHappy.png */,
+				33B3D7FA1DCD96D50059E2B1 /* whiteNonCollegeEducatedMad.png */,
+				33B3D7FB1DCD96D50059E2B1 /* whiteNonCollegeEducatedNeutral.png */,
+			);
+			path = Sprites;
+			sourceTree = "<group>";
+		};
+		33D02EF11DCBE82A00BEB367 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				33D02EF21DCBE82A00BEB367 /* Audio */,
+				33D02EF51DCBE82A00BEB367 /* Images */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		33D02EF21DCBE82A00BEB367 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				3347D7F91DFF7F3100275BA4 /* cardSwipe.mp3 */,
+				3347D7FD1DFF827F00275BA4 /* DJT-MAGA.mp3 */,
+				3347D7FB1DFF821400275BA4 /* DJT-Loser.mp3 */,
+				338069CF1DCD3A73003A8825 /* DJT-GrabThemByThePussy.mp3 */,
+				33F8EB681DF3ADC700A11660 /* DJT-GrabEmByThePussy.mp3 */,
+				332049241DCD179F001C9DC1 /* DJT-NobodyRespectsWomenMoreThanIDo.mp3 */,
+				33D02EF31DCBE82A00BEB367 /* DJT-DidTryAndFuckHer.mp3 */,
+				33D02EF41DCBE82A00BEB367 /* Donald Trump - -Grab Her By The Pussy-.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		33D02EF51DCBE82A00BEB367 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				33865F9A1DFE545E00F6F8B8 /* Backgrounds */,
+				33865F991DFE544300F6F8B8 /* Buttons */,
+				33865F961DFE53F400F6F8B8 /* Trump Faces */,
+				33B3D7E81DCD96D50059E2B1 /* Sprites */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		33F2DD581DFC93F0008FC49D /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				33F2DD561DFC9379008FC49D /* DraggableViewDelegate.swift */,
+				33FA04281DFCE4B9006CE104 /* AudioProtocol.swift */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		33F2DD591DFC984C008FC49D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				332900501DC987910046559A /* DraggableView.swift */,
+				33D02EDC1DCBC71500BEB367 /* OverlayView.swift */,
+				33D02EDE1DCBD52700BEB367 /* GameController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3329002D1DC977E90046559A /* TrumpCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 332900401DC977E90046559A /* Build configuration list for PBXNativeTarget "TrumpCard" */;
+			buildPhases = (
+				3329002A1DC977E90046559A /* Sources */,
+				3329002B1DC977E90046559A /* Frameworks */,
+				3329002C1DC977E90046559A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrumpCard;
+			productName = TrumpCard;
+			productReference = 3329002E1DC977E90046559A /* TrumpCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		332900261DC977E90046559A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Erick Sauri";
+				TargetAttributes = {
+					3329002D1DC977E90046559A = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = FT5TU5KEM8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 332900291DC977E90046559A /* Build configuration list for PBXProject "TrumpCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 332900251DC977E90046559A;
+			productRefGroup = 3329002F1DC977E90046559A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3329002D1DC977E90046559A /* TrumpCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3329002C1DC977E90046559A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B3D8011DCD96D50059E2B1 /* asianAmericanNeutral.png in Resources */,
+				33A8B0F21DFCFB3B005C8D51 /* xButton.png in Resources */,
+				338069D01DCD3A73003A8825 /* DJT-GrabThemByThePussy.mp3 in Resources */,
+				33D02EFD1DCBE82A00BEB367 /* DJT-DidTryAndFuckHer.mp3 in Resources */,
+				33F8EB691DF3ADC700A11660 /* DJT-GrabEmByThePussy.mp3 in Resources */,
+				33B3D8091DCD96D50059E2B1 /* whiteCollegeEducatedHappy.png in Resources */,
+				33CBE3FD1DD14EAC009F2732 /* whiteCollegeEducatedWomanMad.png in Resources */,
+				33F4F5CA1DCBF1E000BF1204 /* trumpSmiling.png in Resources */,
+				33B3D80B1DCD96D50059E2B1 /* whiteCollegeEducatedNeutral.png in Resources */,
+				33CBE3F61DD14E6D009F2732 /* trumpHappy.png in Resources */,
+				33B3D8051DCD96D50059E2B1 /* latinoAmericanNeutral.png in Resources */,
+				3347D7FA1DFF7F3100275BA4 /* cardSwipe.mp3 in Resources */,
+				33B3D8041DCD96D50059E2B1 /* latinoAmericanMad.png in Resources */,
+				33865F981DFE540E00F6F8B8 /* trumpSerious.png in Resources */,
+				3329003C1DC977E90046559A /* LaunchScreen.storyboard in Resources */,
+				332A0EC71DCC39CB0037C25F /* data.plist in Resources */,
+				33FA04231DFCC490006CE104 /* TrumpCardBackground.png in Resources */,
+				332049251DCD179F001C9DC1 /* DJT-NobodyRespectsWomenMoreThanIDo.mp3 in Resources */,
+				33B3D7FE1DCD96D50059E2B1 /* africanAmericanNeutral.png in Resources */,
+				33CBE3FE1DD14EAC009F2732 /* whiteCollegeEducatedWomanNeutral.png in Resources */,
+				33B3D7FF1DCD96D50059E2B1 /* asianAmericanHappy.png in Resources */,
+				33CBE3F81DD14E6D009F2732 /* trumpNeutral.png in Resources */,
+				33B3D8031DCD96D50059E2B1 /* latinoAmericanHappy.png in Resources */,
+				332900391DC977E90046559A /* Assets.xcassets in Resources */,
+				33B3D8021DCD96D50059E2B1 /* Faces.png in Resources */,
+				33CBE3F71DD14E6D009F2732 /* trumpMad.png in Resources */,
+				33D02EFE1DCBE82A00BEB367 /* Donald Trump - -Grab Her By The Pussy-.mp3 in Resources */,
+				3347D7FC1DFF821400275BA4 /* DJT-Loser.mp3 in Resources */,
+				33B3D80A1DCD96D50059E2B1 /* whiteCollegeEducatedMad.png in Resources */,
+				33233CA81DFE6A7A00E9F445 /* Card Background.png in Resources */,
+				33AA652A1DCBF973000DA08A /* Main.storyboard in Resources */,
+				33CBE3FC1DD14EAC009F2732 /* whiteCollegeEducatedWomanHappy.png in Resources */,
+				33F4F5C91DCBF1E000BF1204 /* trumpPissed.png in Resources */,
+				33F8EB671DF3AC8C00A11660 /* launchscreen.png in Resources */,
+				3347D7FE1DFF827F00275BA4 /* DJT-MAGA.mp3 in Resources */,
+				33B3D7FD1DCD96D50059E2B1 /* africanAmericanMad.png in Resources */,
+				33A8B0F31DFCFB3B005C8D51 /* checkButton.png in Resources */,
+				33B3D7FC1DCD96D50059E2B1 /* africanAmericanHappy.png in Resources */,
+				33B3D80E1DCD96D50059E2B1 /* whiteNonCollegeEducatedNeutral.png in Resources */,
+				337F913C1DFE77DB0086F26C /* pauseButton.png in Resources */,
+				33B3D8001DCD96D50059E2B1 /* asianAmericanMad.png in Resources */,
+				33B3D80C1DCD96D50059E2B1 /* whiteNonCollegeEducatedHappy.png in Resources */,
+				33B3D80D1DCD96D50059E2B1 /* whiteNonCollegeEducatedMad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3329002A1DC977E90046559A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33D02EDF1DCBD52700BEB367 /* GameController.swift in Sources */,
+				33F2DD571DFC9379008FC49D /* DraggableViewDelegate.swift in Sources */,
+				3329004D1DC97A930046559A /* Question.swift in Sources */,
+				3329004F1DC97EA50046559A /* Choice.swift in Sources */,
+				33AA652C1DCBF98C000DA08A /* GameViewController.swift in Sources */,
+				33D02EDD1DCBC71500BEB367 /* OverlayView.swift in Sources */,
+				33F2DD551DFC893E008FC49D /* PressConference.swift in Sources */,
+				33FA04251DFCCE0C006CE104 /* TrumpQuotesTableVC.swift in Sources */,
+				332900511DC987910046559A /* DraggableView.swift in Sources */,
+				33FA04271DFCDDCA006CE104 /* QuoteViewController.swift in Sources */,
+				33233CAA1DFE71D500E9F445 /* AboutViewController.swift in Sources */,
+				33FA04291DFCE4B9006CE104 /* AudioProtocol.swift in Sources */,
+				33B3D7E71DCD3B710059E2B1 /* Trump.swift in Sources */,
+				332900321DC977E90046559A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3329003A1DC977E90046559A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3329003B1DC977E90046559A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3329003E1DC977E90046559A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3329003F1DC977E90046559A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		332900411DC977E90046559A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FT5TU5KEM8;
+				INFOPLIST_FILE = TrumpCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ericksauri.TrumpCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		332900421DC977E90046559A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FT5TU5KEM8;
+				INFOPLIST_FILE = TrumpCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ericksauri.TrumpCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		332900291DC977E90046559A /* Build configuration list for PBXProject "TrumpCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3329003E1DC977E90046559A /* Debug */,
+				3329003F1DC977E90046559A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		332900401DC977E90046559A /* Build configuration list for PBXNativeTarget "TrumpCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				332900411DC977E90046559A /* Debug */,
+				332900421DC977E90046559A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 332900261DC977E90046559A /* Project object */;
+}
